@@ -1,9 +1,9 @@
 const mysql = require('mysql')
 const connection = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASS,
-  database: 'kerjain_db',
+  host: 'localhost',
+  user: 'root',
+  password: 'iyus123',
+  database: 'sheetchat',
   timezone: 'UTC'
 })
 
